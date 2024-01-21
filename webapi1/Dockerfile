@@ -10,7 +10,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["webapi1/webapi1.csproj", "webapi1/"]
-COPY ["ClassLibrary1/ClassLibrary1.vbproj", "ClassLibrary1/"]
+COPY ["vbimplementation/vbimplementation.vbproj", "vbimplementation/"]
 COPY ["vbinterfaces/vbinterfaces.vbproj", "vbinterfaces/"]
 RUN dotnet restore "./webapi1/./webapi1.csproj"
 COPY . .

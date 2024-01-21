@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.vbproj", "{9E6C992D-EE8F-40A2-8361-9773CCD160F4}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "vbimplementation", "vbimplementation\vbimplementation.vbproj", "{9E6C992D-EE8F-40A2-8361-9773CCD160F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi1", "webapi1\webapi1.csproj", "{5448A951-DE68-4718-A97E-59E6452BEEEC}"
 EndProject
