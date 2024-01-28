@@ -6,17 +6,13 @@ namespace TestProject1
 {
     public static class Helper
     {
-        private static IServiceProvider Provider()
-        {
-            return new ServiceCollection()
+        private static ServiceProvider Provider => new ServiceCollection()
                 .AddSingleton<IClass1, Class1>()
                 .BuildServiceProvider();
-        }
 
         public static T GetRequiredService<T>() where T : notnull
         {
-            var provider = Provider();
-            return provider.GetRequiredService<T>();
+            return Provider.GetRequiredService<T>();
         }
     }
 }
